@@ -1,0 +1,140 @@
+body{
+  height: 100vh;
+  margin: 0;
+  background-image: url("TelaJogo.png");
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+#canvas-tabuleiro{
+  position: absolute;
+  background-color: white;
+  border: solid 7px black;
+  left: 220px;
+  top: 132px;
+}
+
+.mao {
+  background-color: white;
+  position: absolute;
+  left: 910px;
+  border: solid 5px black;
+  margin-bottom: 15px;
+}
+
+#canvas1{
+  margin-top: 70px;
+}
+
+#canvas2{
+  margin-top: 270px;
+}
+
+#canvas3{
+  margin-top: 470px;
+}
+
+#verifica {
+  margin-left: 118px;
+  margin-bottom: 15px;
+}
+
+#voltaMenu{
+  position: absolute;
+  top: 40px;
+  left: 38px;
+}
+
+#jogo {
+  display: none;
+  margin: auto;
+
+}
+
+#menu {
+  display: block;
+  background-image: url("Menu.png");
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+#comoJogar{
+  display: none;
+  background-image: url("ComoJogar.png");
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.botaoMenu{
+  border-radius: 2px;
+  padding: 10px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#jogar{
+  position: absolute;
+  top: 330px;
+  left: 650px;
+}
+
+#inst{
+  position: absolute;
+  top: 530px;
+  left: 620px;
+}
+
+#continuar{
+  position: absolute;
+  top: 430px;
+  left: 620px;
+}
+
+.botao{
+  cursor: pointer;
+}
+
+#voltar{
+  position: absolute;
+  top: 600px;
+  left: 750px;
+}
+#perdeu {
+  margin-left: 160px;
+}
+
+#fimDeJogo {
+  background-image: url("GameOver.png");
+  margin-left: 140px;
+  display: none;
+
+  height: 100vh;
+  margin: 0;
+}
+
+#placar{
+  position: absolute;
+  top: 40px;
+  left: 320px;
+  color: white;
+  padding: 15px;
+  background-color: #BC2020;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#recorde{
+  position: absolute;
+  top: 260px;
+  left: 680px;
+  color: #BC2020;
+  font-weight: bold;
+  text-transform: uppercase;
+}

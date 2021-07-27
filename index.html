@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="menu">
+    
+		<button class="botaoMenu" id="jogar"><img src="Jogar.png"></button>
+    <button class="botaoMenu" id="continuar"><img src="Continuar.png"></button>
+    <button class="botaoMenu" id="inst"><img src="Instruções.png"></button>
+    <p id="recorde">Recorde: 0</p>
+  </div>
+  <div id="comoJogar">
+    <!-- <img src="ComoJogar.png" width="800px"> -->
+    <img src="Volta.png" class="botao" id="voltar">
+  </div>
+  
+  <div id="jogo">
+    <canvas id="canvas-tabuleiro" width="400" height="400"></canvas>
+    <img src="Volta.png" class="botao" id="voltaMenu">
+
+    <p id="placar">Pontuação: 0</p>
+    
+    <div id="canvas-sorteio">
+      <canvas class="mao" id="canvas1" width="160" height="160"> </canvas>
+      <canvas class="mao" id="canvas2" width="160" height="160"> </canvas>
+      <canvas class="mao" id="canvas3" width="160" height="160"> </canvas>
+      <!--img src="TelaJogo.png" width="550px"-->
+      <div>
+        <!-- <button id="verifica">Verificar Linhas e Colunas</button> -->
+      </div>
+    </div>
+    
+    <div id="fimDeJogo">
+    </div>
+  </div>
+  
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
